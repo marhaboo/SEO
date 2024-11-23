@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.div-before-seo {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 150px;
+
+    img {
+        width: 600px;
+        height: 460px;
+    }
+
+    margin-top: 100px;
+
+    div {
+        width: 45%;
+
+        h1 {
+            font-size: 46px;
+            font-weight: 900;
+            line-height: 59.8px;
+            color: #1E212C;
+        }
+
+        p {
+            margin-top: 50px;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 25.6px;
+            color: #787A80;
+        }
+    }
+}
+
+.div-Seo {
+    text-align: center;
+    padding: 30px 150px;
+    margin-top: 100px;
+
+    div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        gap: 30px;
+        justify-content: space-between;
+
+        img {
+            margin-top: 10px;
+        }
+    }
+}
+
+.viyolet-div {
+    background-color: #7772F1;
+    margin: 100px 150px;
+    padding: 50px;
+    text-align: center;
+
+    div {
+        display: flex;
+        justify-content: space-between;
+
+        input {
+            padding: 10px;
+            width: 240px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        button {
+            padding: 5px 30px;
+            border-radius: 5px;
+            color: white;
+            background-color: #1E212C;
+            border: none;
+        }
+    }
+
+    h1 {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 41.6px;
+        color: white;
+        margin-bottom: 30px;
+    }
+}
+
+.line-div {
+    padding: 20px 150px;
+    margin-top: 100px;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 59.8px;
+        text-align: center;
+    }
+}
+
+.line-boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 50px;
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        color: #787A80;
+    }
+
+    b {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        color: #1E212C;
+    }
+}
+
+.box1 {
+    text-align: right;
+    div {
+        width: 370px;
+        height: 170px;
+        margin-top: 180px;
+    }
+}
+
+.box2 {
+    text-align: left;
+
+    div {
+        width: 370px;
+        height: 170px;
+    }
+}
+.top-box{
+    margin-top: 180px;
+}

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.banner-1 {
+    background-image: url('../service/images/background (10).png');
+    height: 650px;
+    text-align: center;
+    align-content: center;
+
+    h1 {
+        font-size: 62px;
+        font-weight: 900;
+        line-height: 93.6px;
+        letter-spacing: 1px;
+        color: white;
+        margin: 20px 0;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.57);
+        width: 800px;
+        margin: auto;
+    }
+
+    div {
+        display: flex;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+        gap: 30px;
+
+        button {
+            background-color: rgba(240, 248, 255, 0);
+            border: 1px solid #FFFFFF;
+            padding: 10px 30px;
+            color: white;
+            border-radius: 5px;
+        }
+    }
+}
+
+.icon-boxes-div {
+    margin-top: 100px;
+    padding: 30px 150px;
+    margin-bottom: 100px;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 900;
+        line-height: 59.8px;
+        text-align: center;
+        color: #1E212C;
+        margin-bottom: 50px;
+    }
+}
+.clients-img{
+    padding: 30px 150px;
+    margin-top: 100px;
+}

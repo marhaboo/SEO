@@ -29,7 +29,7 @@ const App = () => {
           element: <Services />,
         },
         {
-          path: "services",
+          path: "service",
           element: <Service />,
         },
         {
