@@ -1,0 +1,311 @@
+* {
+  margin: 0;
+}
+
+.comp_lamp_diagram {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  gap: 30px;
+  margin: 30px auto;
+}
+
+.comp_lamp_block {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card_logo_container {
+  display: flex;
+  gap: 10px;
+}
+
+.card_logo_box img {
+  width: 100%;
+}
+
+.card_logo_box {
+  display: flex;
+  background-image: none !important;
+  gap: 10px;
+}
+
+.card_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_logo span {
+  color: gray;
+  font-size: 0.7vw;
+}
+
+.ok {
+  color: white;
+  margin: 0 5px;
+}
+
+.comp_lamp_box img {
+  width: 100%;
+}
+
+.comp_lamp_box {
+  width: 30%;
+}
+
+.comp_lamp_box_elem {
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F4F5F6;
+}
+
+.comp_lamp_box_elem span {
+  color: #424551;
+}
+
+.btn_gray {
+  padding: 8px 15px;
+  background-color: transparent;
+  color: gray;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.media_btn {
+  margin: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.lamp_banner {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url("src/pages/case-study/img/background.png");
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+.lamp_banner h1 {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.lamp_nav {
+  opacity: 70%;
+  margin-top: 40px;
+}
+.seo_container {
+  margin: 70px 0;
+  background-image: url("../src/assets/img/background123.png");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.seo_img img {
+  width: 100%;
+}
+
+.seo_start {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.seo_start h2 {
+  color: white;
+  font-size: 2.3vw;
+}
+
+.seo_start input {
+  padding: 8px;
+  width: 96%;
+  background-color: #23252e;
+  border-radius: 3px;
+  border: 1px solid white;
+  color: white;
+}
+
+.seo_start_box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.seo_start_box input {
+  padding: 8px 15px;
+}
+
+.seo_input_box {
+  display: flex;
+  gap: 50px;
+}
+
+.seo_apply {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.seo_apply_check {
+  display: flex;
+  gap: 10px;
+  color: white;
+  align-items: center;
+}
+.btn_more_box {
+  margin: 30px 0;
+  padding: 20px 0;
+  background-color: #F4F5F6;
+  flex-wrap: wrap;
+}
+.btn_more {
+  display: flex;
+  justify-content: space-around;
+  color: #1E212C;
+}
+
+.card_box {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card_read {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 20%;
+  border: 1px solid white;
+  line-height: 20px;
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 5px;
+  justify-content: start;
+
+}
+
+.card_text {
+  display: flex;
+  padding: 8px 0;
+  border-bottom: 1px solid gray;
+  flex-direction: column;
+}
+
+.card_desc {
+  width: 70%;
+  margin: 10px 0;
+}
+
+.card_logo_box {
+  display: flex;
+  background-image: none !important;
+  gap: 10px;
+}
+
+.card_logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.card_logo span {
+  color: gray;
+  font-size: 0.7vw;
+}
+
+.card_logo_container {
+  display: flex;
+  gap: 10px;
+}
+
+.card_desc p {
+  color: #787A80;
+}
+.btn_custom {
+  padding: 12px;
+  font-size: 1vw;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  background-color: #7772F1;
+}
+.lamp_banner {
+  padding: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+.seo_container {
+  margin: 70px 0;
+  background-image: url("./img/background(1).png");
+  background-position: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  padding: 50px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.seo_img img {
+  width: 100%;
+}
+
+.seo_start {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+}
+
+.seo_start h2 {
+  color: white;
+  font-size: 2.3vw;
+}
+.card_box div:nth-child(2){
+  background-image: url("./img/tube.png");
+}
+.seo_start input {
+  padding: 8px;
+  width: 96%;
+  background-color: #23252e;
+  border-radius: 3px;
+  border: 1px solid white;
+  color: white;
+}
+
+.seo_start_box {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.seo_start_box input {
+  padding: 8px 15px;
+}
