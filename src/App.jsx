@@ -33,8 +33,13 @@ const App = () => {
           element: <Service />,
         },
         {
+<<<<<<< HEAD
           path: "case-studies",
           element: <Studies />,
+=======
+          path: "studies",
+          element: <Studies/>,
+>>>>>>> 8245547c6e8cb3612440eac23dae77e51c86fe34
         },
         {
           path: "case-study",
