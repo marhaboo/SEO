@@ -173,3 +173,18 @@ export function Ourservice() {
         </div>
     </div>
 }
+
+
+export function Clientssay() {
+    return <div className='clients-say'>
+        <h1>What our clients say</h1>
+        <div className='text-client-s'>
+            <img src={leftH} alt="" />
+            <div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo, amet lectus quam viverra mus lobortis fermentum amet, eu. Pulvinar eu sed purus facilisi. Vitae id turpis tempus ornare turpis quis non. Congue tortor in euismod vulputate etiam eros. Pulvinar neque pharetra arcu diam maecenas diam integer in.</p>
+                <img src={userProfile} alt="" />
+            </div>
+            <img src={rightH} alt="" />
+        </div>
+    </div>
+}

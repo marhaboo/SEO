@@ -284,3 +284,103 @@
         background-color: white;
     }
 }
+.pricing-div {
+    padding: 30px 150px;
+    margin-top: 100px;
+    text-align: center;
+
+    .price-div {
+        display: flex;
+        gap: 50px;
+        margin-top: 50px;
+    }
+}
+
+.black {
+    div {
+        background-color: #1E212C;
+        color: white;
+
+        button {
+            background-color: #7772F1;
+            color: white;
+        }
+    }
+}
+
+.services-div {
+    padding: 30px 150px;
+    margin-top: 100px;
+
+    h1 {
+        font-size: 46px;
+        font-weight: 900;
+        line-height: 59.8px;
+        text-align: center;
+        color: #1E212C;
+    }
+}
+
+.btns-service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+    button {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 25.6px;
+        text-align: center;
+        color: #9A9CA5;
+        background-color: white;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+    }
+
+    .v-buuton {
+        padding: 6px 50px;
+        color: #7772F1;
+        border: 2px solid #7772F1;
+    }
+}
+
+.service-text {
+    width: 45%;
+
+    h2 {
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 42px;
+        width: 400px;
+        margin: 20px 0;
+    }
+
+    p {
+        color: #424551;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 35.6px;
+    }
+}
+
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+.btn1 {
+    button {
+        background-color: white;
+        color: #7772F1;
+        border: 2px solid #7772F1;
+    }
+}
+
+.service-flex {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
