@@ -1,0 +1,50 @@
+.our-services {
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px;
+  background-image: url("../../../../../src/images/contacts/background\ \(1\).png");
+  color: white;
+  position: relative;
+  overflow: hidden;
+}
+
+.our-services .content {
+  max-width:700px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+ text-align: center;
+ padding: 60px 0px;
+}
+
+.our-services h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.our-services p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #d0d0d0;
+}
+
+.contact-info {
+  text-align: center;
+  font-size: 16px;
+}
+
+.bottom-our-services{
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.phone-number {
+  font-size: 18px;
+  font-weight: bold;
+  color: #7f56d9;
+}
+
+
+

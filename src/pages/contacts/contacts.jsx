@@ -1,11 +1,10 @@
-import React from 'react'
-
-const Contacts = () => {
-  return (
-    <div>
-      
-    </div>
+import FormComponent from "./components/form-component/form-component.jsx"
+import OurServices from "./components/our-pages/our-services.jsx"
+export default function (){
+  return  (
+    <>
+    <OurServices/>
+    <FormComponent/>
+    </>
   )
 }
-
-export default Contacts
