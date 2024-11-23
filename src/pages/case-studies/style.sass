@@ -1,0 +1,211 @@
+// Define variables  
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
+$secondary-color: #424551 // For name box text
+$banner-bg-image: url("./img/background.png") // Background image for the banner
+$button-bg-color: #7772F1 // Background color for buttons
+$spacing-small: 10px
+$spacing-medium: 30px
+$spacing-large: 100px
+$opacity-light: 60%
+$gray-color: #9A9CA5
+$dark-gray: #7772F1
+$light-gray: #787A80
+$text-align: center
+
+@mixin flex-center
+  display: flex
+  align-items: center
+  justify-content: center
+
+@mixin flex-column
+  display: flex
+  flex-direction: column
+
+@mixin button-style
+  padding: $spacing-small
+  border-radius: 3px
+  background-color: $button-bg-color
+  color: white
+  border: none
+
+body
+  margin: 0
+  padding: 0
+  font: 100% $font-stack
+  color: $primary-color
+
+.banner_phone
+  padding: $spacing-large $spacing-medium
+  background-image: $banner-bg-image
+  background-repeat: no-repeat
+  @include flex-column
+  color: white
+  text-align: $text-align
+  font-family: $font-stack
+  height: 60vh
+  justify-content: end
+
+  h1
+    font-size: 4vw
+
+  span:nth-child(3)
+    width: 50%
+    opacity: $opacity-light
+    text-align: center
+    margin: auto
+
+  .banner_btn
+    @include flex-center
+    flex-wrap: wrap
+    gap: $spacing-medium
+
+.name
+  margin: $spacing-small 0
+  height: 20vh
+  gap: $spacing-small
+  @include flex-center
+  justify-content: start
+
+  .name_box
+    @include flex-column
+    justify-content: start
+
+    p,span
+      color: $secondary-color
+      margin: 0
+
+  .name_box_search
+    @include flex-center
+    align-items: end
+
+    button
+      @include button-style
+
+    input
+      opacity: $opacity-light
+      padding: $spacing-small 25px
+
+    label
+      font-size: 0.8vw
+      opacity: $opacity-light
+
+.study_cat
+  margin: 40px auto
+  color: $gray-color
+  width: 90%
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+
+  span:nth-child(1)
+    color: $dark-gray
+    border-radius: 5px
+    padding: 5px
+    border: 1px solid $dark-gray
+
+.card_studies_main
+  margin: 20px 0
+  display: grid
+  grid-template-columns: repeat(2, 40%)
+  justify-content: center
+
+.card_studies_container
+  @include flex-column
+
+.card_studies_box_img
+  background-repeat: no-repeat
+  height: 30vh
+  padding: $spacing-small
+  color: white
+  justify-content: start
+
+.card_studies_box
+  padding: $spacing-small
+
+.how_box
+  gap: $spacing-medium
+  @include flex-center
+  justify-content: start
+
+.gray
+  color: $light-gray
+
+.card_logo_box
+  @include flex-center
+  background-image: none
+  gap: $spacing-small
+
+.card_logo
+  @include flex-column
+
+.card_logo span
+  color: gray
+  font-size: 0.7vw
+
+.company_logo
+  @include flex-center
+  padding: $spacing-medium
+  gap: 15px
+  color: white
+  flex-wrap: wrap
+
+.client_say
+  margin: 70px 0
+  @include flex-column
+  align-items: center
+
+.say_card
+  width: 50%
+  border-radius: 5px
+  padding: $spacing-medium $spacing-small
+  box-shadow: 1px 3px 10px $dark-gray
+
+.say_card span
+  margin: 10px 0
+  color: $secondary-color
+
+.latest_news
+  @include flex-center
+  width: 80%
+  margin: 50px auto
+  gap: 20px
+
+.latest_news_box
+  @include flex-column
+  width: 50%
+
+.latest_news_box span
+  color: $secondary-color
+  margin: 30px 0
+
+.latest_news_box button
+  width: 30%
+
+.news_new
+  @include flex-center
+  align-items: start
+
+.news
+  margin: 30px 0
+  @include flex-column
+  width: 100%
+
+.news img
+  width: 90%
+  height: 100%
+
+.news_text p
+  color: $secondary-color
+
+.news span:nth-child(2)
+  font-size: 0.8vw
+
+.news h2
+  font-size: 1.5vw
+
+.news button
+  margin: 0px -20px
+  width: 30%
+  background-color: transparent
+  border: none
