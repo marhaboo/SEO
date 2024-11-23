@@ -1,0 +1,102 @@
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+}
+.form-container img{
+ width: 80%;
+}
+
+.form-content {
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.services {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.service {
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.service.active {
+  background: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  min-height: 80px;
+  resize: none;
+}
+
+.budget {
+  margin-bottom: 15px;
+}
+
+.budget label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.budget-values {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.checkbox-group input {
+  margin-right: 10px;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-button:hover {
+  background: #45a049;
+}
+
+.form-illustration {
+  max-width: 400px;
+}

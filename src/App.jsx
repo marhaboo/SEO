@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./layout/layout";
@@ -29,19 +29,19 @@ const App = () => {
           element: <Services />,
         },
         {
-          path: "services",
+          path: "service",
           element: <Service />,
         },
         {
-          path: "studies",
+          path: "case-studies",
           element: <Studies />,
         },
         {
-          path: "study",
+          path: "case-study",
           element: <Study />,
         },
         {
-          path: "about",
+          path: "about-us",
           element: <About />,
         },
         {
@@ -64,7 +64,59 @@ const App = () => {
     },
   ]);
 
-  return <RouterProvider router={router}></RouterProvider>;
+   return (
+    <Suspense
+      fallback={
+        <div class="main">
+          <div class="up">
+            <div class="loaders">
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+              <div class="loader"></div>
+            </div>
+            <div class="loadersB">
+              <div class="loaderA">
+                <div class="ball0"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball1"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball2"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball3"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball4"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball5"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball6"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball7"></div>
+              </div>
+              <div class="loaderA">
+                <div class="ball8"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      }
+    >
+      <RouterProvider router={router} />
+    </Suspense>
+  );
 };
 
 export default App;
