@@ -1,0 +1,156 @@
+.HeaderDivv{
+    background-color: rgba(35, 36, 65, 1);
+    margin-top: -50px;
+}
+.H1About{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 900;
+    padding-top: 10px;
+    color: white;
+}
+.HomeLogoDiv{
+    margin-left: 690px;
+    padding-top: 100px;
+}
+.POur{
+    text-align: center;
+    font-size: 20px;
+
+}
+.IconBoxesDiv{
+    margin-top: 100px;
+    margin-left: 130px;
+    padding-bottom: 60px;
+}
+.DivFigureImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.VideoDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.CoreDiv{
+    display: flex;
+    margin-left: 150px;
+    gap: 80px;
+}
+.CoreImages{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.CoreImg1{
+    width: 46%;
+}
+.DivGallery{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+.Proud{
+    display: flex;
+    margin-left: 130px;
+    gap: 100px;
+}
+
+
+.GetFreeDiv{
+    background-color: rgba(119, 114, 241, 1);
+    
+}
+.H1GetFree{
+    text-align: center;
+    color: white;
+}
+.InpDivs{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    gap: 20px;
+}
+.PnameInp{
+    color: white;
+    font-size: 20px;
+}
+.inputsGetFree{
+    border-radius: 4px;
+    border: 1px solid lightgray;
+    padding: 10px 90px;
+}
+.Panalis{
+    background-color: rgba(30, 33, 44, 1);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 40px;
+    margin-top: 50px;
+}
+.h1240{
+    color: rgba(30, 33, 44, 1);
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+}
+.DivClients{
+    display: flex;
+    justify-content: center;
+}
+.MeeH1{
+    text-align: center;
+    color: rgba(30, 33, 44, 1);
+    font-size: 50px;
+    margin-top: 180px;
+}
+.PersonsDiv{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 150px;
+}
+.pName{
+    text-align: center;
+    color: rgba(66, 69, 81, 1);
+    font-size: 20px;
+}
+.DivFrequent{
+    display: flex;
+    align-items: center;
+    margin-left: 140px;
+    margin-top: 150px;
+    gap: 70px;
+}
+.RunDiv{
+    background-color: rgba(244, 245, 246, 1);
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.RunImg{
+    margin-left: 160px;
+}
+.h1Career{
+    color: rgba(30, 33, 44, 1);
+    font-size: 50px;
+    font-weight: 800;
+}
+.pReady{
+    color: rgba(66, 69, 81, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+.LatestDiv{
+    margin-top: 100px;
+}
+.SeeSpan{
+    background-color: rgba(119, 114, 241, 1);
+    color: white;
+    border-radius: 4px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
