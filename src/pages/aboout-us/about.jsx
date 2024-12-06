@@ -1,4 +1,3 @@
-import React from "react";
 import './about.css'
 
 import HomeLogo from '../aboout-us/images/breadcrumb (4).png'
@@ -33,7 +32,7 @@ const About = () => {
             <div className='HomeLogoDiv'><img src={HomeLogo} alt="" /></div>
             <h1 className='H1About'>About Us</h1>
             <p className='POur'>Our agency has been successfully operating in digital marketing since 2012. We are proud to <br /> offer you quality and exemplary service. We help our clients get better results with our <br /> creative and data-driven approach to online advertising. </p>
-            <div className='IconBoxesDiv'><img src={iconBoxes} alt="" /></div>
+            <div className='IconBoxesDiv'><img src={iconBoxes} alt=""/></div>
         </div>
 
         <div className='DivFigureImg'><img src={figuresImg} alt="" /></div>
@@ -182,7 +181,7 @@ const About = () => {
             <div className='runDivText'>
                 <h1 className='h1Career'>Careers at Createx Agency</h1>
                 <p className='pReady'>Ready to join us on our mission to deliver the best sales development <br /> services to businesses around the globe? We’re hiring!</p><br />
-                <span className='SeeSpan'>See csreers</span>
+                <span className='SeeSpan'>See careers</span>
             </div>
         </div>
 

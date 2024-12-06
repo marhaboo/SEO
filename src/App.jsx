@@ -1,8 +1,7 @@
-import React, { Suspense } from "react";
 import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
 import Layout from "./layout/layout";
-import { lazy } from "react";
+import { lazy, Suspense } from "react";
 const Home = lazy(() => import("./pages/home-page/home-page.jsx"));
 const Services = lazy(() => import("./pages/services/services.jsx"));
 const Service = lazy(() => import("./pages/service/service.jsx"));
@@ -33,9 +32,6 @@ const App = () => {
           element: <Service />,
         },
         {
-          path: "case-studies",
-          element: <Studies />,
-
           path: "studies",
           element: <Studies />,
         },
@@ -70,47 +66,47 @@ const App = () => {
   return (
     <Suspense
       fallback={
-        <div class="main">
-          <div class="up">
-            <div class="loaders">
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
-              <div class="loader"></div>
+        <div className="main">
+          <div className="up">
+            <div className="loaders">
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
+              <div className="loader"></div>
             </div>
-            <div class="loadersB">
-              <div class="loaderA">
-                <div class="ball0"></div>
+            <div className="loadersB">
+              <div className="loaderA">
+                <div className="ball0"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball1"></div>
+              <div className="loaderA">
+                <div className="ball1"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball2"></div>
+              <div className="loaderA">
+                <div className="ball2"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball3"></div>
+              <div className="loaderA">
+                <div className="ball3"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball4"></div>
+              <div className="loaderA">
+                <div className="ball4"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball5"></div>
+              <div className="loaderA">
+                <div className="ball5"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball6"></div>
+              <div className="loaderA">
+                <div className="ball6"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball7"></div>
+              <div className="loaderA">
+                <div className="ball7"></div>
               </div>
-              <div class="loaderA">
-                <div class="ball8"></div>
+              <div className="loaderA">
+                <div className="ball8"></div>
               </div>
             </div>
           </div>

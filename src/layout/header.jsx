@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 import "./header.css";
@@ -10,6 +9,13 @@ const Header = () => {
   function navigatefunc(e) {
     if (e.target.value === "") {
       navigate("/services");
+    } else {
+      navigate(e.target.value);
+    }
+  }
+  function navigateStudy(e){
+    if (e.target.value === "") {
+      navigate("/studies");
     } else {
       navigate(e.target.value);
     }
@@ -34,10 +40,9 @@ const Header = () => {
         <li>
           <select
             onClick={(e) => navigate(e.target.value)}
-            onChange={(e) => navigatefunc(e)}
-            className="nav-select nav-select_2"
-          >
-            <option value="/case-studies">Case Studies</option>
+            onChange={(e) => navigateStudy(e)}
+            className="nav-select nav-select_2">
+            <option value="studies">Case Studies</option>
             <option value="/case-study">Case Study</option>
           </select>
         </li>
